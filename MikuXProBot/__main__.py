@@ -154,7 +154,7 @@ def test(update: Update):
 
 
 @run_async
-def start(update: Update, args: List[str]):
+def start(update: Update):
     if update.effective_chat.type == "private":
         if len(args) >= 1:
             if args[0].lower() == "help":
