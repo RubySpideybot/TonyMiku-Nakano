@@ -52,24 +52,6 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-buttons = [
-    [
-                        InlineKeyboardButton(
-                             text="🏹 Summon Me",
-                             url="https://t.me/MikuXProBot?startgroup=true"),
-                        InlineKeyboardButton(
-                             text="🗞️ Repo",
-                             url="https://github.com/h0daka/Miku-Nakano"),
-                    ],
-                   [                  
-                       InlineKeyboardButton(
-                             text="🔐 Help",
-                             callback_data="help_back"),
-                        InlineKeyboardButton(
-                             text=" 💫 About Me",
-                             callback_data="miku_"),
-                    ], 
-    ]
 
 
 HELP_STRINGS = """
